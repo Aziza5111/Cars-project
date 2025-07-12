@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #121212;
   font-family: "Poppins", sans-serif;
 }
 
@@ -22,6 +22,7 @@ li {
 .container {
   width: 1171px;
   margin: 0 auto;
+  position: relative;
 }
 
 .navbar {
@@ -34,13 +35,34 @@ li {
   font-size: 14px;
 }
 
+.home {
+  text-decoration: underline;
+  text-decoration-color: #4e52e6;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 9px;
+}
 .logo {
   width: 300px;
   height: 100px;
-  background-color: ;
 }
 
-.showcase h1 {
+.h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: white;
+}
+
+.p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: #868686;
+  margin-top: 30px;
+}
+.h1 {
   width: 525px;
   height: 209px;
   margin-top: 225px;
@@ -55,14 +77,191 @@ li {
   font-family: "Roboto", sans-serif;
   width: 571px;
   height: 197px;
-  margin-top: -100px;
-  margin-left: 999px;
   opacity: 12%;
   font-weight: 900;
   font-size: 144px;
   line-height: 110px;
 }
+
+.showcase-text {
+  margin-top: -100px;
+  margin-left: 999px;
+}
 .showcase p {
   color: #868686;
   margin-top: 42px;
+}
+
+.legacy {
+  position: absolute;
+  top: 805px;
+  left: 1405px;
+  right: 363px;
+}
+
+.legacy-button {
+  position: absolute;
+  top: 1066px;
+  left: 1200px;
+  right: 479px;
+  width: 160px;
+  height: 50px;
+  background-color: #fff;
+  color: #121212;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.decades {
+  position: absolute;
+  top: 1299px;
+  left: 500px;
+  right: 909px;
+}
+
+.decades-images {
+  top: 1231px;
+  left: 1000px;
+  right: 909px;
+}
+
+.decades-button {
+  position: absolute;
+  top: 255px;
+  left: 0px;
+  right: 479px;
+  width: 160px;
+  height: 50px;
+  background-color: #121212;
+  color: #4e52e6;
+  border: 1px solid #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.MG-text {
+  position: absolute;
+  top: 541px;
+  left: 803px;
+  width: 400px;
+}
+
+.MG-button {
+  position: absolute;
+  top: 800px;
+  left: 803px;
+  width: 160px;
+  height: 50px;
+}
+
+.ready {
+  position: absolute;
+  top: 2399px;
+  left: 500px;
+  right: 909px;
+}
+
+.main-text {
+  position: absolute;
+  top: 2555px;
+  left: 1155px;
+  right: 909px;
+}
+
+.MG-motors {
+  position: absolute;
+  top: 3133px;
+  left: 550px;
+  right: 909px;
+}
+
+.brand {
+  position: absolute;
+  top: 3767px;
+  left: 1300px;
+}
+.brand-icon {
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 3376px;
+  left: 849px;
+}
+
+.company {
+  position: absolute;
+  top: 4300px;
+  left: 550px;
+  right: 909px;
+}
+
+.india-icon {
+  position: absolute;
+  top: 4776px;
+  left: 1350px;
+}
+
+.safety {
+  position: absolute;
+  top: 5400px;
+  left: 550px;
+  right: 909px;
+}
+
+.newsletter {
+  position: absolute;
+  top: 6000px;
+  left: 450px;
+  right: 909px;
+}
+
+.for {
+  position: absolute;
+  left: 1400px;
+  top: 5870px;
+}
+
+.email-input {
+  width: 500px;
+  height: 60px;
+  background-color: white;
+}
+
+.confirm {
+  position: absolute;
+  top: 520px;
+  left: 3px;
+  width: 250px;
+  height: 60px;
+  background-color: #4e52e6;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footer {
+  position: absolute;
+  top: 7000px;
+  left: 800px;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+h4 {
+  color: white;
+  display: flex;
+  justify-content: space-between;
 }
