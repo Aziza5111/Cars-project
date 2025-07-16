@@ -9,6 +9,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -42,10 +47,35 @@ li {
   text-underline-offset: 9px;
 }
 .logo {
-  width: 300px;
-  height: 100px;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  margin-right: 225px;
 }
 
+.poly3 {
+  position: absolute;
+  width: 956px;
+  height: 956px;
+  top: -185.15px;
+  left: 670px;
+}
+
+.candy-white {
+  position: absolute;
+  width: 800px;
+  height: 530px;
+  top: 110px;
+  left: 740px;
+}
+
+.g79 {
+  position: absolute;
+  width: 355px;
+  height: 20px;
+  top: 610px;
+  left: 895px;
+}
 .h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -99,10 +129,34 @@ li {
   right: 363px;
 }
 
+.poly7 {
+  position: absolute;
+  width: 573.26px;
+  height: 573.26px;
+  margin-top: 96px;
+  right: 602px;
+}
+
+.legacy-img {
+  width: 420px;
+  height: 420px;
+  margin-top: 225px;
+  margin-left: -995px;
+  border-radius: 40px;
+  rotate: 20deg;
+}
+
+.legacy-text {
+  position: absolute;
+  width: 400px;
+  height: 407px;
+  top: 275px;
+  left: -230px;
+}
 .legacy-button {
   position: absolute;
-  top: 1066px;
-  left: 1200px;
+  top: 266px;
+  left: -5px;
   right: 479px;
   width: 160px;
   height: 50px;
@@ -115,15 +169,17 @@ li {
 
 .decades {
   position: absolute;
-  top: 1299px;
-  left: 500px;
+  top: 1635px;
+  left: 450px;
   right: 909px;
 }
 
 .decades-images {
-  top: 1231px;
-  left: 1000px;
-  right: 909px;
+  position: absolute;
+  left: 620px;
+  width: 560px;
+  height: 560px;
+  top: -100px;
 }
 
 .decades-button {
@@ -135,34 +191,93 @@ li {
   height: 50px;
   background-color: #121212;
   color: #4e52e6;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
 }
 
+.decades-jpg {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  top: 137px;
+  left: 120px;
+  border-radius: 40px;
+  rotate: -20deg;
+}
+
+.MG-images {
+  position: absolute;
+  top: 500px;
+}
+
+.polygon {
+  width: 550px;
+  height: 550px;
+}
+
+.MG-png {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  left: 10px;
+  top: 135px;
+  border-radius: 40px;
+  rotate: 25deg;
+}
+
 .MG-text {
   position: absolute;
-  top: 541px;
-  left: 803px;
+  top: 641px;
+  left: 700px;
   width: 400px;
 }
 
 .MG-button {
   position: absolute;
-  top: 800px;
-  left: 803px;
+  top: 880px;
+  left: 700px;
   width: 160px;
   height: 50px;
 }
 
+.future {
+  position: absolute;
+  top: 350px;
+}
 .ready {
   position: absolute;
   top: 2399px;
-  left: 500px;
+  left: 400px;
   right: 909px;
 }
 
+.ready p {
+  width: 267px;
+}
+
+.ready-images {
+  position: absolute;
+  top: 2550px;
+  left: 830px;
+}
+
+.poly10 {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  right: 100px;
+  z-index: -1;
+  top: 25px;
+  left: 425px;
+}
+
+.ready-png {
+  width: 850px;
+  height: 500px;
+  z-index: 1;
+}
 .main-text {
   position: absolute;
   top: 2555px;
