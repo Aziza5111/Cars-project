@@ -46,6 +46,7 @@ li {
   text-decoration-thickness: 3px;
   text-underline-offset: 9px;
 }
+
 .logo {
   width: 200px;
   height: 40px;
@@ -65,21 +66,22 @@ li {
   position: absolute;
   width: 800px;
   height: 530px;
-  top: 110px;
-  left: 740px;
+  top: 139px;
+  left: 745px;
 }
 
 .g79 {
   position: absolute;
   width: 355px;
   height: 20px;
-  top: 610px;
-  left: 895px;
+  top: 630px;
+  left: 900px;
 }
+
 .h2 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 23px;
   line-height: 100%;
   color: white;
 }
@@ -87,11 +89,12 @@ li {
 .p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 40px;
   color: #868686;
   margin-top: 30px;
 }
+
 .h1 {
   width: 525px;
   height: 209px;
@@ -117,6 +120,7 @@ li {
   margin-top: -100px;
   margin-left: 999px;
 }
+
 .showcase p {
   color: #868686;
   margin-top: 42px;
@@ -134,7 +138,7 @@ li {
   width: 573.26px;
   height: 573.26px;
   margin-top: 96px;
-  right: 602px;
+  right: 850px;
 }
 
 .legacy-img {
@@ -153,9 +157,10 @@ li {
   top: 275px;
   left: -230px;
 }
+
 .legacy-button {
   position: absolute;
-  top: 266px;
+  top: 300px;
   left: -5px;
   right: 479px;
   width: 160px;
@@ -201,8 +206,8 @@ li {
   position: absolute;
   width: 420px;
   height: 420px;
-  top: 137px;
-  left: 120px;
+  top: 130px;
+  left: 108px;
   border-radius: 40px;
   rotate: -20deg;
 }
@@ -221,7 +226,7 @@ li {
   position: absolute;
   width: 420px;
   height: 420px;
-  left: 10px;
+  left: 18px;
   top: 135px;
   border-radius: 40px;
   rotate: 25deg;
@@ -246,15 +251,20 @@ li {
   position: absolute;
   top: 350px;
 }
+
 .ready {
   position: absolute;
   top: 2399px;
-  left: 400px;
-  right: 909px;
+  left: 390px;
+  right: 999px;
 }
 
+.ready h1 {
+  width: 500px;
+  font-size: 87px;
+}
 .ready p {
-  width: 267px;
+  width: 500px;
 }
 
 .ready-images {
@@ -265,77 +275,218 @@ li {
 
 .poly10 {
   position: absolute;
-  width: 480px;
-  height: 480px;
+  width: 485px;
+  height: 485px;
   right: 100px;
   z-index: -1;
   top: 25px;
-  left: 425px;
+  left: 525px;
 }
 
 .ready-png {
-  width: 850px;
-  height: 500px;
+  position: absolute;
+  width: 750px;
+  height: 450px;
   z-index: 1;
+  top: 40px;
+  left: 160px;
 }
+
 .main-text {
   position: absolute;
   top: 2555px;
-  left: 1155px;
-  right: 909px;
+  left: 1255px;
 }
 
 .MG-motors {
   position: absolute;
-  top: 3133px;
-  left: 550px;
+  top: 3400px;
+  left: 430px;
   right: 909px;
+  width: 457px;
+  height: 140px;
+}
+
+.poly101 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 3900px;
+  left: 425px;
+}
+
+.Mgmotors-png {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 365px;
+  top: 3900px;
+  border-radius: 30px;
+  rotate: -15deg;
 }
 
 .brand {
   position: absolute;
-  top: 3767px;
+  top: 3987px;
   left: 1300px;
 }
-.brand-icon {
+
+.brand-icons {
   position: absolute;
-  width: 50px;
-  height: 56px;
-  top: 3376px;
-  left: 849px;
+  top: -130px;
+  width: 100px;
+  height: 106px;
 }
 
 .company {
   position: absolute;
-  top: 4300px;
-  left: 550px;
+  top: 4600px;
+  left: 400px;
   right: 909px;
 }
 
-.india-icon {
+.company-png {
   position: absolute;
-  top: 4776px;
+  width: 105px;
+  height: 105px;
+  top: -100px;
+}
+
+.poly11 {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  top: -100px;
+  left: 730px;
+  border-radius: 20px;
+  border: 5px;
+}
+
+.about-img {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -20px;
+  left: 870px;
+  border-radius: 30px;
+  rotate: -15deg;
+}
+
+.india-icons {
+  position: absolute;
+  top: 5076px;
   left: 1350px;
+}
+
+.india-img {
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  top: 30px;
+  left: -880px;
+  border-radius: 40px;
+  rotate: -15deg;
+}
+
+.poly12 {
+  position: absolute;
+  width: 330px;
+  height: 330px;
+  top: 100px;
+  left: 110px;
+  border-radius: 20px;
+  border: 5px;
+  rotate: 20deg;
+}
+
+.india-png {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  top: 30px;
+  left: 10px;
+  border-radius: 30px;
+  rotate: -5deg;
+}
+
+.india-case {
+  position: absolute;
+  top: 200px;
+  width: 500px;
+  height: 200px;
+}
+
+.india-icon {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: -130px;
 }
 
 .safety {
   position: absolute;
-  top: 5400px;
+  top: 5900px;
   left: 550px;
   right: 909px;
 }
 
-.newsletter {
+.traffic-light {
+  top: -150px;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+}
+
+.poly13 {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: -100px;
+  left: 100px;
+}
+
+.safety-png {
+  position: absolute;
+  left: 500px;
+  width: 430px;
+  height: 430px;
+  border-radius: 35px;
+}
+
+.signup {
   position: absolute;
   top: 6000px;
   left: 450px;
   right: 909px;
 }
 
+.newsletter {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  right: 909px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 670px;
+  height: 670px;
+  color: #4e52e6;
+  top: -95px;
+  left: -220px;
+}
+
+.blackcar {
+  position: absolute;
+  width: 1000px;
+  height: 500px;
+  top: -100px;
+  left: -100px;
+}
 .for {
   position: absolute;
-  left: 1400px;
-  top: 5870px;
+  left: 800px;
+  top: 370px;
 }
 
 .email-input {
